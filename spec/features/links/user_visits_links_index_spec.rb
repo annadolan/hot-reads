@@ -17,6 +17,6 @@ describe "A visitor visits the links index page" do
 
     visit root_path
 
-    expect(page).to have_content("http://www.j.com 56, http://www.i.com 32, http://www.g.com 21, http://www.f.com 9, http://www.l.com 8, http://www.k.com 7, http://www.d.com 6, http://www.b.com 5, http://www.h.com 4, http://www.e.com 3,")
+    expect(page).to have_content("http://www.j.com: Read 56 times http://www.i.com: Read 32 times http://www.g.com: Read 21 times http://www.f.com: Read 9 times http://www.l.com: Read 8 times http://www.k.com: Read 7 times http://www.d.com: Read 6 times http://www.b.com: Read 5 times http://www.h.com: Read 4 times http://www.e.com: Read 3 times")
   end
 end

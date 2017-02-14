@@ -1,3 +1,5 @@
+<h1>All Links from <%= link_to "URL Lockbox", "https://tranquil-ridge-18823.herokuapp.com/" %></h1>
+
 <% @links.each do |link| %>
   <%= link_to link.url, link.url %>: Read <%= link.read_count %> times
   <hr>
